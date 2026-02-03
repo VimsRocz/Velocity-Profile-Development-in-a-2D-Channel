@@ -30,4 +30,3 @@ body:
         - OpenFOAM version:
     validations:
       required: false
-

@@ -33,7 +33,7 @@ The simulations are conducted in a **2D rectangular duct** with a **length-to-he
 #### Governing Equations
 - **Continuity Equation:** Enforcing mass conservation:
   $$\nabla \cdot U = 0$$
-  
+
 - **Momentum Equations:** Capturing viscous effects and pressure-driven flow:
   $$U \cdot \nabla U = -\nabla p + \nu \nabla^2 U$$
 
@@ -45,12 +45,12 @@ where:
 ### Boundary Conditions
 - **Inlet (x = 0):** A uniform velocity profile is imposed:
   $$U = (1,0,0)^T \text{ m/s}$$
-  
+
 - **Walls (y = 0, y = 1):** A no-slip condition is enforced:
   $$U = (0,0,0)^T \text{ m/s}$$
 
 - **Outlet (x = 10):** A fully developed flow condition is applied:
-  $$\frac{\partial U}{\partial x} = (0,0,0)^T$$  
+  $$\frac{\partial U}{\partial x} = (0,0,0)^T$$
   The pressure is set to zero:
   $$p = 0 \text{ Pa}$$
 
