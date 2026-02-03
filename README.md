@@ -1,5 +1,8 @@
 # CFD Final Project: Velocity Profile Development in a 2D Channel
 
+[![CI](https://github.com/VimsRocz/Velocity-Profile-Development-in-a-2D-Channel/actions/workflows/ci.yml/badge.svg)](https://github.com/VimsRocz/Velocity-Profile-Development-in-a-2D-Channel/actions/workflows/ci.yml)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
 ## Introduction
 
 ### Background
@@ -133,3 +136,7 @@ The convergence length (\( x_d \)) is where the **RMS error falls below** \( 10^
 ## References
 1. Prof. Dr. Marc Avila, Daniel Moron Montesdeoca, "CFD Lecture Notes," University Bremen, Wise 2024/25.
 2. Mohammad Mehdi Zamani Asl, Lab Tutor, University Bremen.
+
+## License
+
+MIT — see `LICENSE`.
